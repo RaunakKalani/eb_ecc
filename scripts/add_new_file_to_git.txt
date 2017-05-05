@@ -1,0 +1,13 @@
+git clone git@github.com:vaish-niranjan/eb_ecc.git
+cd eb_ecc/
+git pull -u origin master
+cd Sample_Files/
+#cp ../../ecc_sim/*.v .
+git commit *.v
+git push *.v
+#git remote add origin git@github.com:vaish-niranjan/eb_ecc
+cd ../Testvectors/
+#cp ../../ecc_sim/*.txt .
+git add *.txt
+git commit *.txt
+git push -u origin master
